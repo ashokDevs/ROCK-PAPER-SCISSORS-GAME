@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    place-content: center;
+}
+h1{
+    text-align:center;
+}
+
+.container{
+    height:500px;
+    width:1000px;
+    border: 5px solid black;
+    position: relative;
+    
+
+}
+
+#computerName{
+    position: absolute;
+    top:150px;
+    left:100px;
+}
+
+#computerCard{
+    position: absolute;
+    top:150px;
+    left:260px;
+}
+#personName{
+    position: absolute;
+    top:250px;
+    left:130px;
+}
+#personCard{
+    position: absolute;
+    top:250px;
+    left:250px;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap:150px;
+    position: absolute;
+    left: 300px;
+    bottom: 80px;
+    
+}
+
+#rock,#scissors,#paper{
+    height:50px;
+    width:100px;
+    border-radius: 45%;
+    background-color: black;
+    color: antiquewhite;
+}
+
+#scoreName{
+    position: absolute;
+    right: 120px;
+    top: 100px;
+   text-decoration:underline;
+}
+
+#computerNameScore{
+    position: absolute;
+    right: 150px;
+    top:150px;
+}
+#personNameScore{
+    position: absolute;
+    right: 150px;
+    top:200px;    
+}
+
+#computerScore{
+    position: absolute;
+    right: 100px;
+    top:150px;    
+}
+
+#personScore{
+    position: absolute;
+    right: 100px;
+    top:200px;    
+}
